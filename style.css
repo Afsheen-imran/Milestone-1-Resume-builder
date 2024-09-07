@@ -1,0 +1,59 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #02000d;
+}
+
+header {
+    text-align: center;
+    
+}
+h1{
+
+    color:rgb(233, 174, 86)
+}
+
+p{
+    color:rgb(247, 167, 49)
+}
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+section {
+    background: #cd72c5;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius:10px;
+    box-shadow: 0 2px 5px rgba(25, 0, 25, 25.1);
+    
+    
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+#toggleSkills{
+
+    color:black;
+    background-color: #cd72c5;
+    
+    
+
+}
